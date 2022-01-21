@@ -6,7 +6,7 @@ A simple piano that can be played by positioning the fingers on the correspondin
 - Piano 🎹
 
 ## Project Description
-The program draws multiple lines on screen simulating a piano, with a hand tracker using MediaPipe, we detected our fingers, then we can positioned our fingers in the keys drawed and play specifics notes or some chords.
+The program draws multiple lines on screen simulating a piano, with a hand tracker using _MediaPipe_, we detected our fingers, then we can positioned our fingers in the keys drawed and play specifics notes or some chords.
 I'm an amateur musician who loves piano, I thought it could be entertained code a simple piano using _MediaPipe_ and _OpenCV_.
 
 I have several problems with sounds, but finally, with _pygame_, I was able to combine multiple sounds into one. In each frame, we detect the sounds that could be sound and add to an empty _.wav_ file, and finally after iteraing into each finger, we play the final sound.
@@ -52,13 +52,6 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
 
 
 
